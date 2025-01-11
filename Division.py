@@ -1,4 +1,7 @@
 # This function adds two numbers
 def divide(x, y):
-    return x / y
+    if(y==0):
+        return "zero entry"
+    else:
+        return x / y
 
